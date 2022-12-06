@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: #ebeef1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+}
+
+.box .chrome img {
+    width: 98px;
+}
+
+.box div {
+    margin: 30px;
+    padding: 20px;
+    background-color: #3982E4;
+    border-radius: 50px;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+.box i {
+    font-size: 90px;
+    color: #ebeef1;
+    margin: 5px;
+}
+
+.box .tel {
+    background-color: #51B574;
+}
+
+.box .msg {
+    background-color: #408DE3;
+}
+
+.box .chrome {
+    background-color: #ffffff;
+}
+
+.box .camera {
+    background-color: #D93957;
+}
+
+.box div:hover {
+    transform: scale(1.2);
+}
+
+.box div {
+    transition: transform 200ms ease-in-out;
+}
